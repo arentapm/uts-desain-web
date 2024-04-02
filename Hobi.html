@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobi Saya</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(bootstrap-5.3.3-dist/background1.jpeg);
+        }
+        header {
+            background-color: #081F5C; 
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #fff;
+            text-align: left;
+            font-size: 40px;
+            font-weight: normal;
+        }
+
+        nav ul {
+            margin: 0; 
+            padding: 0;
+            overflow: hidden;
+            text-align: right;
+            list-style-type: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            background-color: #BAD6EB;
+            margin-right: 10px;
+            border-left: 1px solid #fff;
+            padding-left: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        nav ul li:first-child {
+            border-left: none;
+            padding-left: 0;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            color: #334EAC;
+            font-size: 16px; 
+        }
+
+        nav ul li a:hover {
+            background-color: #FFF9F0;
+            color: #081F5C;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-image: url(bootstrap-5.3.3-dist/background2.jpeg);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #081F5C;
+        }
+
+        .info {
+            margin-bottom: 20px;
+            color: #081F5C;
+            text-align: center;
+        }
+        .hobby-list {
+            list-style-type: none;
+            display: flex; 
+            justify-content: space-around; 
+        }
+
+        .hobby-item {
+            margin: 0;
+            padding: 0;
+            width: 20%; 
+        }
+        .hobby-item:hover {
+            transform: translateY(-5px);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Profil.html" >Profil</a></li>
+                <li><a href="TentangSaya.html" >Tentang Saya</a></li>
+                <li><a href="JadwalPerkuliahan.html" >Jadwal Perkuliahan</a></li>
+                <li><a href="Hobi.html">Hobi</a></li>
+                <li><a href="HalamanPendaftaran.html">Halaman Pendaftaran</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Hobi Saya</h1>
+        <div class="info">
+            <h2>Makan</h2>
+            <p>saya sangat gemar sekali untuk mecicipi segala macam kuliner </p>
+        </div>
+        <div class="hobi">
+            <ul class="hobby-list">
+                <li class="hobby-item">
+                    <img src="bootstrap-5.3.3-dist/makan1.jpeg" alt="Makan" width="100%" height="auto">
+                </li>
+                <li class="hobby-item">
+                    <img src="bootstrap-5.3.3-dist/makan2.jpeg" alt="Makann" width="100%" height="auto">
+                </li>
+                <li class="hobby-item">
+                    <img src="bootstrap-5.3.3-dist/makan3.jpeg" alt="Makannn" width="100%" height="auto">
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
